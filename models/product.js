@@ -17,6 +17,9 @@ const infoSectionSchema = new mongoose.Schema({
   images: [String],
   location: String,
   mapIframe: String,
+  longDesscription:String,
+  
+
 });
 
 // Create the InfoSection model
